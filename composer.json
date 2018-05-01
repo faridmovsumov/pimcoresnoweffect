@@ -15,7 +15,14 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PimcoreSnowEffectBundle\\": "/PimcoreSnowEffectBundle"
+            "PimcoreSnowEffectBundle\\": "PimcoreSnowEffectBundle/"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "PimcoreSnowEffectBundle\\PimcoreSnowEffectBundle"
+            ]
         }
     }
 }

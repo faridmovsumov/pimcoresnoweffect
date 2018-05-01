@@ -2,7 +2,6 @@
     "name": "faridmovsumov/pimcoresnoweffect",
     "description": "Pimcore Admin Snow Effect Extension",
     "type": "pimcore-bundle",
-    "version": "1.0.2",
     "authors": [
         {
             "name": "Farid Movsumov",

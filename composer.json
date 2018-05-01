@@ -1,0 +1,11 @@
+{
+    "name": "faridmovsumov/pimcoresnoweffect",
+    "description": "Pimcore Admin Snow Effect Extension",
+    "authors": [
+        {
+            "name": "Farid Movsumov",
+            "email": "faridmovsumov@gmail.com"
+        }
+    ],
+    "require": {}
+}

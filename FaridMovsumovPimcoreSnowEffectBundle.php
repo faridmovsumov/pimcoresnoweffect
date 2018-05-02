@@ -13,3 +13,4 @@ class FaridMovsumovPimcoreSnowEffectBundle extends AbstractPimcoreBundle
         ];
     }
 }
+ 

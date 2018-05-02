@@ -2,6 +2,9 @@
     "name": "faridmovsumov/pimcoresnoweffect",
     "description": "Pimcore Admin Snow Effect Extension",
     "type": "pimcore-bundle",
+    "config": {
+        "sort-packages": true
+    },
     "authors": [
         {
             "name": "Farid Movsumov",
@@ -14,13 +17,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PimcoreSnowEffectBundle\\": "/"
+            "FaridMovsumov\\PimcoreSnowEffectBundle\\": "/"
         }
     },
     "extra": {
         "pimcore": {
             "bundles": [
-                "PimcoreSnowEffectBundle\\PimcoreSnowEffectBundle"
+                "FaridMovsumov\\PimcoreSnowEffectBundle"
             ]
         }
     }

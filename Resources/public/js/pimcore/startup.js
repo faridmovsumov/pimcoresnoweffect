@@ -1,4 +1,4 @@
-pimcore.registerNS("pimcore.plugin.FaridMovsumovPimcoreSnowEffectBundle");
+pimcore.registerNS("pimcore.plugin.SnowEffectBundle");
 
 // Set the number of snowflakes (more than 30 - 40 not recommended)
 var snowmax=35
@@ -105,9 +105,9 @@ for (i=0;i<=snowmax;i++) {
     document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
 }
 
-pimcore.plugin.FaridMovsumovPimcoreSnowEffectBundle = Class.create(pimcore.plugin.admin, {
+pimcore.plugin.SnowEffectBundle = Class.create(pimcore.plugin.admin, {
     getClassName: function () {
-        return "pimcore.plugin.FaridMovsumovPimcoreSnowEffectBundle";
+        return "pimcore.plugin.SnowEffectBundle";
     },
 
     initialize: function () {
@@ -116,8 +116,8 @@ pimcore.plugin.FaridMovsumovPimcoreSnowEffectBundle = Class.create(pimcore.plugi
     },
 
     pimcoreReady: function (params, broker) {
-        alert("FaridMovsumovPimcoreSnowEffectBundle ready!");
+        // alert("SnowEffectBundle ready!");
     }
 });
 
-var FaridMovsumovPimcoreSnowEffectBundlePlugin = new pimcore.plugin.FaridMovsumovPimcoreSnowEffectBundle();
+var SnowEffectBundlePlugin = new pimcore.plugin.SnowEffectBundle();

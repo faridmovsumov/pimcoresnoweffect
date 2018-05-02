@@ -11,13 +11,13 @@ services:
 
     # controllers are imported separately to make sure they're public
     # and have a tag that allows actions to type-hint services
-    FaridMovsumov\PimcoreSnowEffectBundle\Controller\:
+    SnowEffectBundle\Controller\:
         resource: '../../Controller'
         public: true
         tags: ['controller.service_arguments']
 
 # add more services, or override services that need manual wiring
-#    FaridMovsumov\PimcoreSnowEffectBundle\ExampleClass:
+#    SnowEffectBundle\ExampleClass:
 #        arguments:
 #            - "@service_id"
 #            - "plain_value"

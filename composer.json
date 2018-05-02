@@ -17,13 +17,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "FaridMovsumov\\PimcoreSnowEffectBundle\\": "/"
+            "SnowEffectBundle\\": "/"
         }
     },
     "extra": {
         "pimcore": {
             "bundles": [
-                "FaridMovsumov\\PimcoreSnowEffectBundle"
+                "SnowEffectBundle"
             ]
         }
     }

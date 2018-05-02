@@ -1,6 +1,6 @@
 <?php
 
-namespace FaridMovsumov\PimcoreSnowEffectBundle\DependencyInjection;
+namespace SnowEffectBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class FaridMovsumovPimcoreSnowEffectExtension extends Extension
+class SnowEffectExtension extends Extension
 {
     /**
      * {@inheritdoc}

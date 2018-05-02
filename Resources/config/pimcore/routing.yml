@@ -1,5 +1,5 @@
-farid_movsumov_pimcore_snow_effect:
-    resource: "@FaridMovsumovPimcoreSnowEffectBundle/Controller/"
+snow_effect:
+    resource: "@SnowEffectBundle/Controller/"
     type:     annotation
     prefix:   /
 
